@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-starter-tailwind-landing",
+  "private": true,
+  "description": "A simple Landing page built with Tailwind and Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "gatsby": "^2.21.22",
+    "gatsby-background-image": "^1.1.1",
+    "gatsby-image": "^2.4.4",
+    "gatsby-plugin-postcss": "^2.3.0",
+    "gatsby-plugin-sharp": "^2.6.5",
+    "gatsby-source-filesystem": "^2.3.4",
+    "gatsby-transformer-sharp": "^2.5.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tailwindcss": "^1.4.4"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skapavarapu/gatsby-starter-tailwind-landing"
+  },
+  "bugs": {
+    "url": "https://github.com/skapavarapu/gatsby-starter-tailwind-landing/issues"
+  }
+}
